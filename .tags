@@ -4,5 +4,6 @@
 !_TAG_PROGRAM_NAME	Exuberant Ctags	//
 !_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
 !_TAG_PROGRAM_VERSION	5.8	//
-artworks_100	data-cleaning.py	/^artworks_100 = pandas.read_csv("https:\/\/media.githubusercontent.com\/media\/metmuseum\/openaccess\/master\/MetObjects.csv")$/;"	v
+data	data-cleaning.py	/^data = pandas.read_csv("https:\/\/media.githubusercontent.com\/media\/metmuseum\/openaccess\/master\/MetObjects.csv")$/;"	v
 pandas	data-cleaning.py	/^import pandas$/;"	i
+sample	data-cleaning.py	/^sample = artworks_100.head(10)$/;"	v
