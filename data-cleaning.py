@@ -1,6 +1,9 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
+# pandas API Ref:
+# http://bit.ly/2s4qB0O
+
 # ref: Data Cleaning with Python - MoMA's Artwork Collection
 # http://bit.ly/2sjjdlR
 
@@ -24,3 +27,24 @@ data["Culture"].value_counts()
 # http://sqlservercode.blogspot.com/2017/02/importing-metropolitan-museum-of-arts.html
 # https://www.springboard.com/blog/ggplot2-in-r-tutorial/
 # https://avital.ca/notes/exploring-met-museums-openaccess-dataset
+
+l = [12,3,3,4,5,5,6,6]
+
+from collections import Counter
+counts = Counter(l)
+counts["3"]
+
+
+def count(l):
+    result = {}
+    for item in l:
+        if item in result:
+            result[item] += 1
+        else:
+            result[item] = 1
+    return result
+
+count(l)
+
+
+# help(pd.Series.loc)
