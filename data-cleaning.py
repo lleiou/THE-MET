@@ -17,8 +17,6 @@ sample["Repository"].value_counts()
 data["Culture"].value_counts()
 
 
-
-
 # about large file,  like the csv file in this problem...
 # type the following code in termial:
 # curl -O https://media.githubusercontent.com/media/metmuseum/openaccess/master/MetObjects.csv
@@ -48,3 +46,19 @@ count(l)
 
 
 # help(pd.Series.loc)
+
+
+
+
+from pandas import DataFrame
+frame = DataFrame(np.random.randn(4, 3), columns=list('bde'), index=['Utah', 'Ohio', 'Texas', 'Oregon'])
+
+frame
+f = lambda x: x.max() - x.min()
+
+In [119]: frame.apply(f)
+Out[119]:
+b    1.133201
+d    1.965980
+e    2.829781
+dtype: float64

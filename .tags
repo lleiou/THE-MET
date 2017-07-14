@@ -5,9 +5,12 @@
 !_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
 !_TAG_PROGRAM_VERSION	5.8	//
 Counter	data-cleaning.py	/^from collections import Counter$/;"	i
+DataFrame	data-cleaning.py	/^from pandas import DataFrame$/;"	i
 count	data-cleaning.py	/^def count(l):$/;"	f
 counts	data-cleaning.py	/^counts = Counter(l)$/;"	v
 data	data-cleaning.py	/^data = pandas.read_csv("https:\/\/media.githubusercontent.com\/media\/metmuseum\/openaccess\/master\/MetObjects.csv")$/;"	v
+f	data-cleaning.py	/^f = lambda x: x.max() - x.min()$/;"	v
+frame	data-cleaning.py	/^frame = DataFrame(np.random.randn(4, 3), columns=list('bde'), index=['Utah', 'Ohio', 'Texas', 'Oregon'])$/;"	v
 l	data-cleaning.py	/^l = [12,3,3,4,5,5,6,6]$/;"	v
 pandas	data-cleaning.py	/^import pandas$/;"	i
 sample	data-cleaning.py	/^sample = artworks_100.head(10)$/;"	v
