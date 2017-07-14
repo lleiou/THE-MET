@@ -32,7 +32,6 @@ from collections import Counter
 counts = Counter(l)
 counts["3"]
 
-
 def count(l):
     result = {}
     for item in l:
