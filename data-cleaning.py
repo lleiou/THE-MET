@@ -43,10 +43,8 @@ def count(l):
 
 count(l)
 
-
+# check the meaning of a method:
 # help(pd.Series.loc)
-
-
 
 
 from pandas import DataFrame
